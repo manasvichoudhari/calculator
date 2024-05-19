@@ -17,6 +17,16 @@ buttons.forEach (function (button){
     result.value = eval( result.value );
 
 }
+            else if (calculate === "√"){
+    result.value = Math.sqrt( result.value);
+} 
+else if(calculate === "x²"){
+    result.value =  result.value **2;
+}
+else if (calculate === "Qube"){
+    result.value =  result.value **3;
+}
+   
 else{
     result.value += calculate 
 }
